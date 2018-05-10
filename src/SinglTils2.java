@@ -17,7 +17,7 @@ public class SinglTils2 {
         System.out.println( "Заменяем  "+index3+" место на число "+p+":  " +Remov2(tail,p,index3));
     }
 
-    public static Node generate(int max){
+    public static Node generate(int max){ //создаем список
         Node tail = null;
         for (int k = 0; k < max; k++) {
             tail = new Node(k, tail);
